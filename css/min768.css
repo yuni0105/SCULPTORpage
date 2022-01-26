@@ -50,7 +50,15 @@ html{height:100%;}
   .menubar2 {width: 170px; display: flex; flex-direction: column; justify-content: space-between;  
     position:absolute; top:8%; left:5%; z-index: 500; }
 
-.menubar2 li{margin-top: 10%;} 
+    .menubar2 li, .menubar3 li {margin-top: 10%;} 
+
+    .menubar3 {width: 100px; display: flex; flex-direction: column; justify-content: space-between;  
+      position:absolute; 
+      text-align: right; top:8%; right:5%; z-index: 500; }     
+
+
+
+
 
   /* hamburger */
 #menu{position:relative;}
